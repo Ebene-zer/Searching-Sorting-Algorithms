@@ -1,29 +1,40 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-### Eclipse ###
-.apt_generated
+# Optional: if you ever use Gradle or Maven
+build/
+target/
+
+### Java ###
+*.class
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+### Eclipse (optional, cleanup) ###
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### NetBeans (optional) ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### macOS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+desktop.ini
